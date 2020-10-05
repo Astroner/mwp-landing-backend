@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bloggers",
+  "info": {
+    "name": "Bloggers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "aq": {
+      "type": "biginteger"
+    }
+  }
+}

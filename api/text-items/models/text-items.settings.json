@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "text_items",
+  "info": {
+    "name": "TextItems"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "lng_ru": {
+      "type": "richtext"
+    },
+    "lng_en": {
+      "type": "richtext"
+    }
+  }
+}

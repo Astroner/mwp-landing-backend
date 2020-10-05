@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bloggers",
+      "handler": "bloggers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bloggers/count",
+      "handler": "bloggers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bloggers/:id",
+      "handler": "bloggers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bloggers",
+      "handler": "bloggers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bloggers/:id",
+      "handler": "bloggers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bloggers/:id",
+      "handler": "bloggers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
